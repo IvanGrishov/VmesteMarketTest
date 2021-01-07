@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="home-screen">
+            <h1 class="home-screen__text"> Тест на знание HTML</h1>
+            <button class="home-screen__button btn">начать</button>
+        </div>
+        <div class="quiz fade-screen" id="quiz">
+            <div class="quiz-questions" id="questions" data-current-step="0"></div>
+    
+            <div class="quiz-indicator" id="indicator">1/10</div>
+    
+            <div class="quiz-result" id="result">
+                
+            </div>
+            
+            <div class="quiz-controls">
+                <button class="btn-next btn" id="btn-next" disabled>Продолжить</button>
+                <button class="btn-restart btn" id="btn-restart">Пройти еще раз</button>
+            </div>
+        </div>
+    </div>
+    
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

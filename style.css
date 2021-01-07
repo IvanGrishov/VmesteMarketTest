@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.quiz {
+    margin: 0 auto;
+}
+
+.quiz-questions, 
+.quiz-result {
+    margin-bottom: 20px;
+}
+.quiz-questions-item,
+.quiz-results-item {
+    margin-bottom: 20px;
+}
+.quiz-questions-item__question, 
+.quiz-results-item__question {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.quiz-questions-item__answers, 
+.quiz-results-item__answers {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.quiz-result {
+    display: none;
+}
+.quiz-indicator {
+    margin-bottom: 20px;
+}
+.quiz-controls {
+}
+.btn-next {
+}
+.btn-restart {
+    display: none;
+}
+.questions--hidden,
+.btn-next--hidden,
+.indicator--hidden {
+    display: none;
+}
+.indicator--visible,
+.btn-restart--visible {
+    display: block;
+}
+.answer--invalid {
+    color: red;
+}
+.answer--valid {
+    color: green;
+}
+.fade-screen {
+    display: none;
+}
+.quiz-results-item__score {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.quiz-results-item__quantity {
+    font-size: 30px;
+    color: #40C781;
+    font-weight: bold;
+}
+.btn {
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: rgb(64,199,129);
+    box-shadow: 0 -3px rgb(53,167,110) inset;
+    transition: 0.2s;
+    border: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.btn:hover { background: rgb(53, 167, 110); }
+.btn:active {
+  background: rgb(33,147,90);
+  box-shadow: 0 3px rgb(33,147,90) inset;
+}
+.home-screen__text {
+    font-weight: normal;
+}
+xmp {
+    display: inline-block;
+}
+.codetext {
+    font-family: 'Roboto', sans-serif;
+}
+.codetext-link {
+    white-space: pre-wrap;
+}
